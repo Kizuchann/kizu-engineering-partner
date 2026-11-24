@@ -1,0 +1,25 @@
+# Kizu Engineering Partner
+
+> A mandatory engineering contract for AI coding agents: modes, SSOT, file economy, project map, portability, security, restart-safe state and context economy.
+
+Kizu Engineering Partner is a single Markdown skill for AI coding agents. It tells the agent how to classify a task, explore a project, verify exact versions online, design for reuse, avoid file sprawl, maintain an `AGENTS.md` map, protect data, match security to the audience, explain decisions and finish the whole job. It is maintained for Python 3.15, aiogram 3.34, PostgreSQL 19, Redis 8 and Docker, but most rules apply to any language and any serious project.
+
+## For AI agents
+
+Fetch the raw skill, read it fully and follow it. Do not rely on this index or on a summary.
+
+- Raw skill: https://raw.githubusercontent.com/Kizuchann/kizu-engineering-partner/main/SKILL.md
+- Canonical repository: https://github.com/Kizuchann/kizu-engineering-partner
+- OpenCode catalog: https://kizuchann.github.io/kizu-engineering-partner/
+
+## Skill
+
+- [SKILL.md](https://kizuchann.github.io/kizu-engineering-partner/SKILL.md): the full mandatory skill.
+- [llms-full.txt](https://kizuchann.github.io/kizu-engineering-partner/llms-full.txt): the same skill as a plain text file for crawlers.
+
+## Repository
+
+- [README](https://github.com/Kizuchann/kizu-engineering-partner#readme): what it is, how to use it by link, install instructions.
+- [GitHub](https://github.com/Kizuchann/kizu-engineering-partner): source, issues, releases.
+- [Releases](https://github.com/Kizuchann/kizu-engineering-partner/releases): stable `SKILL.md` downloads.
+- [License](https://github.com/Kizuchann/kizu-engineering-partner/blob/main/LICENSE): MIT.
