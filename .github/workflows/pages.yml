@@ -38,7 +38,7 @@ jobs:
           assert not re.search(r"/home/[A-Za-z0-9._-]+/", probe), "absolute home path in SKILL.md"
           assert "C:\\Users\\" not in probe, "absolute Windows path in SKILL.md"
 
-          for name in ("README.md", "index.html", "llms.txt", "robots.txt", "sitemap.xml", "LICENSE"):
+          for name in ("README.md", "index.html", "llms.txt", "robots.txt", "sitemap.xml", "LICENSE", "assets/kizu-engineering-partner-og.png", "assets/kizu-engineering-partner-og.svg"):
               assert Path(name).is_file(), f"missing {name}"
 
           html = Path("index.html").read_text(encoding="utf-8")
@@ -55,6 +55,8 @@ jobs:
           cp SKILL.md _site/llms-full.txt
           cp README.md LICENSE index.html llms.txt robots.txt sitemap.xml _site/
           cp a9b09c5279e1ec7ae0f23c5fc9ae948b.txt _site/
+          mkdir -p _site/assets
+          cp assets/kizu-engineering-partner-og.png assets/kizu-engineering-partner-og.svg _site/assets/
 
           python3 - <<'PY'
           import hashlib

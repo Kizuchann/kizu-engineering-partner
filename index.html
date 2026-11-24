@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kizu Engineering Partner — a mandatory AI engineering contract</title>
   <meta name="description" content="Kizu Engineering Partner is a mandatory engineering contract for AI coding agents: SSOT, project map, file economy, portability, security, restart-safe state and context economy.">
-  <meta name="keywords" content="AI agent skill, AI coding agent, engineering contract, SSOT, single source of truth, project map, AGENTS.md, context engineering, Python 3.15, aiogram 3.34, PostgreSQL 19, Redis 8, Docker, OpenCode skill, Claude Code skill">
+  <meta name="keywords" content="AI agent skill, portable agent skill, AI coding agent, GPT Codex skill, ChatGPT skill, Claude Code skill, Cursor skill, OpenCode skill, Codebuff skill, Freebuff skill, engineering contract, SSOT, project map, AGENTS.md, context engineering, Python 3.15, aiogram 3.34, PostgreSQL 19, Redis 8, Docker">
   <meta name="author" content="Akihiko K. (Kizuchann)">
   <link rel="canonical" href="https://kizuchann.github.io/kizu-engineering-partner/">
   <link rel="alternate" type="text/markdown" href="/kizu-engineering-partner/SKILL.md">
@@ -16,17 +16,24 @@
   <meta property="og:description" content="A mandatory engineering contract for AI coding agents. SSOT, project map, file economy, portability, security and context economy.">
   <meta property="og:url" content="https://kizuchann.github.io/kizu-engineering-partner/">
   <meta property="og:site_name" content="Kizu Engineering Partner">
+  <meta property="og:image" content="https://kizuchann.github.io/kizu-engineering-partner/assets/kizu-engineering-partner-og.png">
+  <meta property="og:image:alt" content="Kizu Engineering Partner — a portable engineering contract for AI coding agents">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
 
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Kizu Engineering Partner">
   <meta name="twitter:description" content="A mandatory engineering contract for AI coding agents.">
+  <meta name="twitter:image" content="https://kizuchann.github.io/kizu-engineering-partner/assets/kizu-engineering-partner-og.png">
+  <meta name="twitter:image:alt" content="Kizu Engineering Partner — a portable engineering contract for AI coding agents">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "SoftwareSourceCode",
     "name": "Kizu Engineering Partner",
-    "description": "A mandatory engineering contract for AI coding agents: task modes, SSOT, file economy, project map, portability, security, restart-safe state and context economy.",
+    "description": "A portable engineering contract for GPT/Codex, Claude, Cursor, OpenCode, Codebuff/Freebuff and other AI coding agents: task modes, SSOT, file economy, project map, portability, security, restart-safe state and context economy.",
     "url": "https://kizuchann.github.io/kizu-engineering-partner/",
     "codeRepository": "https://github.com/Kizuchann/kizu-engineering-partner",
     "license": "https://opensource.org/licenses/MIT",
@@ -37,7 +44,7 @@
       "name": "Akihiko K. (Kizuchann)",
       "url": "https://github.com/Kizuchann"
     },
-    "keywords": "AI agent skill, AI coding agent, engineering contract, SSOT, project map, AGENTS.md, context engineering, Python 3.15, aiogram 3.34, PostgreSQL 19, Redis 8, Docker, OpenCode, Claude Code"
+    "keywords": "portable Agent Skills, AI coding agent, GPT Codex, ChatGPT, Claude Code, Cursor, OpenCode, Codebuff, Freebuff, engineering contract, SSOT, project map, AGENTS.md, context engineering"
   }
   </script>
 
@@ -162,10 +169,11 @@
 
     <main>
       <section class="hero" style="border-top:0">
-        <div class="eyebrow">AI engineering contract · v1.0.0</div>
+        <div class="eyebrow">Portable Agent Skill · v1.0.0</div>
         <h1>Stop shipping <span>AI slop.</span><br>Start shipping engineering.</h1>
         <p class="lede">
-          Kizu Engineering Partner is a single, mandatory <code>SKILL.md</code> for AI coding agents.
+          Kizu Engineering Partner is a single, portable <code>SKILL.md</code> for GPT/Codex, Claude,
+          Cursor, OpenCode, Codebuff/Freebuff and other AI coding agents.
           It forces the agent to read before writing, verify versions online, design for reuse,
           keep the project navigable, protect data, match security to the audience, and finish the whole job.
         </p>
@@ -218,6 +226,19 @@
           <div class="card"><h3>Restart-safe state</h3><p>Progress lives in PostgreSQL, not in <code>asyncio.sleep</code>, global dicts or <code>MemoryStorage</code>.</p></div>
           <div class="card"><h3>Context economy</h3><p>Targeted reads, projections, output caps, subagents, a ledger and a handoff.</p></div>
           <div class="card"><h3>Exact versions</h3><p>Verified online for today, never <code>.x</code> or <code>latest</code>.</p></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>One skill, many hosts</h2>
+        <p class="sub">The rules stay in one canonical Markdown file; only the loading mechanism changes.</p>
+        <div class="grid">
+          <div class="card"><h3>GPT / Codex</h3><p>Attach <code>SKILL.md</code>, use the raw URL, or place it in <code>.agents/skills/</code>.</p></div>
+          <div class="card"><h3>Claude Code</h3><p>Clone it into <code>.claude/skills/kizu-engineering-partner/</code>.</p></div>
+          <div class="card"><h3>Cursor</h3><p>Clone it into <code>.cursor/skills/</code> or <code>.agents/skills/</code>.</p></div>
+          <div class="card"><h3>OpenCode</h3><p>Use the HTTP catalog or a local <code>.opencode/skills/</code> directory.</p></div>
+          <div class="card"><h3>Codebuff / Freebuff</h3><p>Use <code>.agents/skills/</code>; keep <code>AGENTS.md</code> for the project map.</p></div>
+          <div class="card"><h3>Any compatible host</h3><p>Use the standard folder layout and the same canonical <code>SKILL.md</code>.</p></div>
         </div>
       </section>
 
