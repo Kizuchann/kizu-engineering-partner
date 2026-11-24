@@ -9,7 +9,7 @@ GPT/Codex · Claude · Cursor · OpenCode · Codebuff/Freebuff · Python 3.15 ·
 ![license](https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square)
 ![python](https://img.shields.io/badge/python-3.15.2-3776AB?style=flat-square&logo=python&logoColor=white)
 ![aiogram](https://img.shields.io/badge/aiogram-3.34.0-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
-![skill](https://img.shields.io/badge/skill-v1.0.0-6f42c1?style=flat-square)
+![skill](https://img.shields.io/badge/skill-v1.0.1-6f42c1?style=flat-square)
 
 [Read the skill](https://raw.githubusercontent.com/Kizuchann/kizu-engineering-partner/main/SKILL.md) ·
 [Use by link](#use-by-link) ·

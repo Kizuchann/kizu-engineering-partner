@@ -9,7 +9,7 @@ license: MIT
 > **Canonical source:** https://github.com/Kizuchann/kizu-engineering-partner
 > **Raw skill (fetch this if you only have a link):** https://raw.githubusercontent.com/Kizuchann/kizu-engineering-partner/main/SKILL.md
 > **OpenCode catalog:** https://kizuchann.github.io/kizu-engineering-partner/
-> **Version:** 1.0.0, snapshot 2026-11-24
+> **Version:** 1.0.1, snapshot 2026-11-24
 > **Portable standard:** https://agentskills.io
 
 > **AI agent contract.** This file is mandatory, not advisory. Read every section before the first tool call. Do not skim it, do not summarize it back to the user, and do not ask the user to repeat it. If a rule conflicts with your defaults, this file wins. If you cannot comply with a rule, say exactly which rule and why before doing anything.
