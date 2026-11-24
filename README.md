@@ -76,7 +76,7 @@ Add the catalog URL to `opencode.json` or `opencode.jsonc`:
 }
 ```
 
-OpenCode reads `index.json` from that URL, downloads the skill, and registers it as `kizu-engineering-partner`. The catalog version is a content hash, so a changed skill refreshes automatically.
+OpenCode reads `index.json` from that URL, downloads the skill, and registers it as `kizu-engineering-partner`. The catalog version combines the release version with a content hash, so a changed skill refreshes automatically.
 
 ### Local skill directory
 
@@ -137,7 +137,7 @@ The Pages build generates `index.json` (OpenCode catalog), `SKILL.md`, `llms-ful
 
 - The skill snapshot is dated inside `SKILL.md` and is currently **2026-11-24**.
 - `main` is the current version. Releases are semver tags; each release attaches `SKILL.md` for a stable download URL.
-- The catalog `version` is the SHA-256 prefix of `SKILL.md`, so agents refresh when the content changes.
+- The catalog `version` is `<release>+<sha256-prefix>` of `SKILL.md`, so agents refresh when the content changes and humans can see which release they run.
 - Library versions go stale. The skill contains a compact refresh procedure; re-verify before claiming a version is current.
 
 ## Discovery

@@ -58,9 +58,14 @@ jobs:
           python3 - <<'PY'
           import hashlib
           import json
+          import re
           from pathlib import Path
 
-          version = hashlib.sha256(Path("SKILL.md").read_bytes()).hexdigest()[:12]
+          skill = Path("SKILL.md").read_text(encoding="utf-8")
+          digest = hashlib.sha256(skill.encode("utf-8")).hexdigest()[:12]
+          match = re.search(r"\*\*Version:\*\* ([0-9]+\.[0-9]+\.[0-9]+)", skill)
+          base = match.group(1) if match else "1.0.0"
+          version = f"{base}+{digest}"
           catalog = {
               "skills": [
                   {

@@ -49,7 +49,7 @@ Publishing is `git push` to `main`; the Pages workflow validates, builds and dep
 
 - No absolute paths, secrets, personal data or machine-only assets.
 - Do not copy the skill text into other files. Generated copies are build artifacts only.
-- The catalog version is the SHA-256 prefix of `SKILL.md`; do not hardcode it.
+- The catalog version is `<release>+<sha256-prefix>` of `SKILL.md`; it is computed at build time, do not hardcode it.
 - Keep the canonical URLs, snapshot date and release version consistent.
 - Re-verify library versions before claiming they are current.
 
