@@ -9,6 +9,7 @@ Kizu Engineering Partner is a single Markdown skill for AI coding agents. It tel
 Fetch the raw skill, read it fully and follow it. Do not rely on this index or on a summary.
 
 - Raw skill: https://raw.githubusercontent.com/Kizuchann/kizu-engineering-partner/main/SKILL.md
+- Stable release asset: https://github.com/Kizuchann/kizu-engineering-partner/releases/latest/download/SKILL.md
 - Canonical repository: https://github.com/Kizuchann/kizu-engineering-partner
 - OpenCode catalog: https://kizuchann.github.io/kizu-engineering-partner/
 

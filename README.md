@@ -55,6 +55,12 @@ Read https://raw.githubusercontent.com/Kizuchann/kizu-engineering-partner/main/S
 
 The skill itself contains its canonical repository, raw URL and version, so an agent that receives only a link can fetch the source, confirm what it is reading, and follow it.
 
+Stable release asset (a snapshot that never changes under the tag):
+
+```text
+https://github.com/Kizuchann/kizu-engineering-partner/releases/latest/download/SKILL.md
+```
+
 If the agent cannot fetch URLs, download the raw file and attach it instead.
 
 ## Install
