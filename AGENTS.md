@@ -40,7 +40,7 @@ Publishing is `git push` to `main`; the Pages workflow validates, builds and dep
 - `SKILL.md` — canonical skill.
 - `README.md` — human entry point and install instructions.
 - `index.html` — static landing page with structured data.
-- `assets/kizu-engineering-ai-toolkit.png` — canonical social preview image for GitHub and link sharing.
+- `assets/kizu-engineering-ai-toolkit.jpg` — canonical social preview image for GitHub and link sharing; keep it under 1 MB.
 - `llms.txt` — AI discovery index; `llms-full.txt` is generated from `SKILL.md`.
 - `robots.txt`, `sitemap.xml` — crawler guidance.
 - `a9b09c5279e1ec7ae0f23c5fc9ae948b.txt` — IndexNow key file; keep it public and in the deployed site.
