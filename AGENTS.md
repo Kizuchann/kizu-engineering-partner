@@ -42,6 +42,7 @@ Publishing is `git push` to `main`; the Pages workflow validates, builds and dep
 - `index.html` — static landing page with structured data.
 - `llms.txt` — AI discovery index; `llms-full.txt` is generated from `SKILL.md`.
 - `robots.txt`, `sitemap.xml` — crawler guidance.
+- `a9b09c5279e1ec7ae0f23c5fc9ae948b.txt` — IndexNow key file; keep it public and in the deployed site.
 - `.github/workflows/pages.yml` — validation, catalog build, Pages deploy.
 - `LICENSE` — MIT.
 

@@ -54,6 +54,7 @@ jobs:
           cp SKILL.md _site/SKILL.md
           cp SKILL.md _site/llms-full.txt
           cp README.md LICENSE index.html llms.txt robots.txt sitemap.xml _site/
+          cp a9b09c5279e1ec7ae0f23c5fc9ae948b.txt _site/
 
           python3 - <<'PY'
           import hashlib
